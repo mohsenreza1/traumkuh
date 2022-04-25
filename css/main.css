@@ -255,6 +255,10 @@ main #burgers .card img {
 #poutin img {
   width: 100%;
 }
+#poutin .preis {
+  border: 1px solid black;
+  padding: 10px;
+}
 #poutin .text {
   position: relative;
   font-size: 20px;
@@ -293,6 +297,10 @@ main #burgers .card img {
 }
 #beilagen img {
   width: 100%;
+}
+#beilagen .bard {
+  border: 1px solid black;
+  padding: 10px;
 }
 #beilagen .fleisch {
   margin: 0 auto;
