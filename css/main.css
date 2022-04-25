@@ -38,6 +38,13 @@ header nav ul li a :hover {
   color: rgb(26, 95, 95);
   background-color: rgb(112, 36, 36);
 }
+header nav .style .auf {
+  font-size: 25px;
+}
+header nav .style .auf :hover {
+  color: rgb(26, 95, 95);
+  background-color: rgb(112, 36, 36);
+}
 @media screen and (min-width: 768px) {
   header nav {
     display: flex;
@@ -181,10 +188,11 @@ main #burgers .card img {
 @media screen and (min-width: 768px) {
   main #burgers {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr) 20px;
     grid-auto-rows: auto;
   }
   main #burgers .card {
+    padding: 20px;
     width: 100%;
   }
   main #burgers .card > div {

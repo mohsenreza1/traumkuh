@@ -52,6 +52,17 @@ header{
            }    
        }
 
+       .style{
+           .auf{
+               font-size: 25px;
+
+               :hover{
+                color: rgb(26, 95, 95);
+                background-color: rgb(112, 36, 36);
+               }
+           }
+       }
+
    
 
        @media screen and (min-width:768px) {
@@ -219,10 +230,11 @@ main{
 
         @media screen and (min-width:768px) {
             display: grid;
-            grid-template-columns: repeat(5,1fr);
+            grid-template-columns: repeat(5,1fr) 20px;
             grid-auto-rows: auto;
 
             .card{
+                padding: 20px;
                 width: 100%;
                >div{
                 padding: 5px;
